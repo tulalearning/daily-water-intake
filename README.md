@@ -1,6 +1,6 @@
 # Homework Day-21: Daily Water Intake Calculation 🫗
 
-This is a React component that calculates the recommended daily water intake based on weight and allows the user to switch between light and dark theme.
+This is a React Project (using `Vite`) that calculates the recommended daily water intake based on weight and allows the user to switch between light and dark theme.
 
 ## **Usage**
 
@@ -42,4 +42,30 @@ The component defines the following methods:
 The component uses the useEffect hook to apply the selected theme to the root element of the document whenever the theme state changes. It adds or removes the CSS classes `light-theme` and `dark-theme` from the root element based on the selected theme.
 
 **Note:** see more detail in `index.css` file.
-{: .note}
+
+#
+
+## **Installation Guide**
+
+1. Open a terminal or command prompt.
+2. Navigate to the directory where you want to clone the project.
+3. git clone `https://github.com/tulalearning/daily-water-intake.git`
+4. Once the cloning process is complete, navigate into the project directory:
+
+```Shell
+cd daily-water-intake
+```
+
+5. Install the project dependencies by running the following command
+
+```Shell
+npm install
+```
+
+6. After the installation is complete, you can start the development server with the following command
+
+```Shell
+npm run dev
+```
+
+7. You should now see the application running in your web browser. You can interact with the DailyWaterIntake component and test its functionality. Enjoy :blush:
